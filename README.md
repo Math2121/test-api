@@ -12,12 +12,15 @@ git clone https://github.com/Math2121/test-api.git
 
 ```js
 composer install
+
 php artisan migrate
+
+php artisan serve
 ```
 
 ## Banco de Dados
 
-<p> Utlize o arquivo api-test.sql que esta dentro da pasta database e o execute dentro do seu SBGDda sua escolha<p>
+<p> Utilize o arquivo api-test.sql que esta dentro da pasta database e o execute dentro do seu SBGDda sua escolha<p>
 
 <strong> Sete as configurações do banco de dados no arquivo ".env"</strong>
 
